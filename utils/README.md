@@ -16,13 +16,13 @@
   ## Usage
   To use this application, navigate to the cloned files and type command node index into the command-line. The user is prompted with a series of questions which generates a README.md file when all are answered.
   ## Contributing
-  Instructional Staff at the University of Minnesota Coding Bootcamp, MDN Web Docs, npm Docs
+  Instructional Staff at the University of Minnesota Coding Bootcamp
   ## Tests
   N/A
   ## Questions
   Name: Nainoa Dinson 
 
-  GitHub: [ndinson](https://github.com/$(data.github)) 
+  GitHub: [nainoad](https://github.com/$(data.github)) 
 
   Email: [nd808@msn.com](mailto:nd808@msn.com)
   ## License

@@ -61,7 +61,7 @@ function generateMarkdown(data) {
   ${data.tests}
   ## Questions
   Name: ${data.name} \n
-  GitHub: [${data.github}](https://github.com/$(data.github)) \n
+  GitHub: [${data.github}](https://github.com/${data.github}) \n
   Email: [${data.email}](mailto:${data.email})
   ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)}
