@@ -7,64 +7,68 @@ const generateMarkdown = require('./utils/generateMarkdown.js')
 const questions = [
   {
     type: 'input',
-    name: 'Title',
+    name: 'github',
     message: 'What is your gitHub username?',
   },
   {
     type: 'input',
-    name: 'Title',
+    name: 'email',
     message: 'What is your email address?',
   },
   {
     type: 'input',
-    name: 'Title',
+    name: 'title',
     message: 'What is the title of your project?',
   },
   {
     type: 'input',
-    name: 'Description',
+    name: 'description',
     message: 'Provide a short description explaining the what, why, and how of your application.',
   },
   {
     type: 'input',
-    name: 'Installation',
+    name: 'installation',
     message: 'What are the steps required to install your application?',
   },
   {
     type: 'input',
-    name: 'Usage',
+    name: 'usage',
     message: 'Provide instructions and examples for use.',
   },
   {
     type: 'input',
-    name: 'Contributing',
+    name: 'contribution',
     message: 'List your collaborators.',
   },
   {
     type: 'input',
-    name: 'Tests',
+    name: 'tests',
     message: 'Include tests for your aapplication and provide examples on how to run them.',
   },
   {
     type: 'list',
-    name: 'License',
+    name: 'license',
     message: 'Choose a license for your application.',
-    choices: ['MIT', 'APACHE-2.0', 'GPL-3.0', 'BSD3', 'None'],
+    choices: ['MIT', 'APACHE-2.0', 'GPL-3.0', 'BSD-3', 'None'],
   }
 ];
 
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+ 
+}
 
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions)
     .then(res => {
     //console.log(res)
-    const template = generateMarkdown()
+    const data = generateMarkdown()
     //console.log(template)
+
+writeToFile();    
 })
 }
 
