@@ -67,7 +67,7 @@ function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-// TODO: Create a function to initialize app.
+// Function to initialize app.
 function init() {
   inquirer.prompt(questions)
     .then((responses) => {
@@ -76,5 +76,5 @@ function init() {
   })
 }
 
-// Function call to initialize app
+// Function call to initialize app.
 init();
