@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // Instructions to guide user through application.
-console.log('This is README generator. Please answer the following questions to create a README file for your project.')
+console.log('This is a README generator. Please answer the following questions to create a README file for your project.')
 
 // Array of questions for user input.
 const questions = [

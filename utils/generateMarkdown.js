@@ -49,17 +49,17 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
   - [License](#license)
-  ## Description:
+  ## Description
   ${data.description}
-  ## Installation:
+  ## Installation
   ${data.installation}
-  ## Usage:
+  ## Usage
   ${data.usage}
-  ## Contributing:
+  ## Contributing
   ${data.contribution}
-  ## Tests:
+  ## Tests
   ${data.tests}
-  ## Questions:
+  ## Questions
   Name: ${data.name} \n
   GitHub: [${data.github}](https://github.com/$(data.github)) \n
   Email: [${data.email}](mailto:${data.email})
