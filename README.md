@@ -6,6 +6,8 @@ The purpose of this project is to create a command-line application that generat
 
 ### Demo
 
+<iframe src="https://drive.google.com/file/d/1wTknoHmPgEKRqhpKQo_aiFJecv-cyFHx/preview" width="640" height="480"></iframe>
+
 ## Installation
 
 Type the git clone command in the command-line to store application files locally. The user must also use the npm install command to install the inquirer package.
